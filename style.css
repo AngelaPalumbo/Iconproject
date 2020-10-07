@@ -1,0 +1,58 @@
+body {
+    background-color: #99ccff;
+}
+
+h1 {
+    font-size: 34px;
+    font-family: 'Antic Slab', serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Antic Slab', serif;
+    font-size: 25px
+}
+
+.paragraph {
+    background-color: white;
+    width: 1050px;
+    height: auto;
+}
+
+.parent {
+    display: flex;
+    width: 1050px;
+}
+
+.image-child {
+    flex-basis: 50%;
+}
+
+.text-child {
+    flex-basis: 50%
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.parent img {
+    max-width: 150px;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+ol {
+    font-size: 20px;
+    font-family: 'Antic Slab', serif;
+}
+
+#caption {
+    color: grey;
+    font-size: 20px;
+}
